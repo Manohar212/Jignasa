@@ -1,0 +1,8 @@
+{
+  "name": "Jignasa",
+  "description": "Emotion-Aware Classroom Analytics Platform for students and faculty.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

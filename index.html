@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jignasa - Academic Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #F9F7F2; /* Soft paper beige */
+        color: #1F2937;
+      }
+      h1, h2, h3, h4, h5, h6, .font-serif {
+        font-family: 'Merriweather', serif;
+      }
+      .jignasa-blue {
+        color: #1B3B6F;
+      }
+      .bg-jignasa-blue {
+        background-color: #1B3B6F;
+      }
+      .btn-primary {
+        background-color: #2C4C88;
+        color: white;
+        transition: background-color 0.2s;
+      }
+      .btn-primary:hover {
+        background-color: #1B3B6F;
+      }
+      
+      /* Global Input Styling - Force white background for all inputs */
+      input, select, textarea {
+        background-color: #ffffff !important;
+      }
+
+      /* Global Placeholder Styling - Matching Primary Accent */
+      input::placeholder, textarea::placeholder {
+        color: #1B3B6F !important;
+        opacity: 1 !important;
+      }
+      
+      /* WebKit browsers (Chrome, Safari, Edge) */
+      ::-webkit-input-placeholder {
+        color: #1B3B6F !important;
+        opacity: 1 !important;
+      }
+      
+      /* Mozilla Firefox */
+      ::-moz-placeholder {
+        color: #1B3B6F !important;
+        opacity: 1 !important;
+      }
+      
+      /* Internet Explorer 10-11 */
+      :-ms-input-placeholder {
+        color: #1B3B6F !important;
+        opacity: 1 !important;
+      }
+      
+      /* Microsoft Edge */
+      ::-ms-input-placeholder {
+        color: #1B3B6F !important;
+        opacity: 1 !important;
+      }
+
+      /* --- Global Scrollbar Styling --- */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #F9F7F2; /* Matches body background */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #1B3B6F; /* Primary Blue */
+        border-radius: 4px;
+        border: 2px solid #F9F7F2; /* Padding effect */
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #2C4C88;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0",
+    "socket.io-client": "https://esm.sh/socket.io-client@4.7.4",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js",
+    "firebase/": "https://esm.sh/firebase@^12.9.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
